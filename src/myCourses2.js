@@ -3,21 +3,21 @@ let myCourses = [
     course: "ee3001",
     slots: [
       {
-        day: "monday",
+        day: "tuesday",
         time: {
           start: 930,
           end: 1500
         }
       },
       {
-        day: "tuesday",
+        day: "wednesday",
         time: {
           start: 1100,
           end: 1600
         }
       },
       {
-        day: "wednesday",
+        day: "thursday",
         time: {
           start: 1330,
           end: 1900
@@ -29,14 +29,14 @@ let myCourses = [
     course: "ee3002",
     slots: [
       {
-        day: "monday",
+        day: "tuesday",
         time: {
           start: 1030,
           end: 1230
         }
       },
       {
-        day: "thursday",
+        day: "wednesday",
         time: {
           start: 1430,
           end: 1630
@@ -57,17 +57,17 @@ let myCourses = [
       {
         day: "wednesday",
         time: {
-          start: 1430,
+          start: 1030,
           end: 1530
         }
       },
-      {
-        day: "thursday",
-        time: {
-          start: 1130,
-          end: 1230
-        }
-      },
+      // {
+      //   day: "thursday",
+      //   time: {
+      //     start: 1130,
+      //     end: 1230
+      //   }
+      // },
     ],
   },
 ];
